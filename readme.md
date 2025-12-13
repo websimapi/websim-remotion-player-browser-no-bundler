@@ -1,3 +1,4 @@
+<<<<<<< SEARCH
 # Remotion Player – Browser (No Bundler) Setup
 
 This project runs a Remotion video **directly in the browser** using native ES modules and an **import map**—no bundler or build tooling is required.
@@ -57,4 +58,6 @@ You can copy each of the sections below as‑is into your own files:
     <script type="module" src="./main.jsx"></script>
   </body>
 </html>
+
+
 
