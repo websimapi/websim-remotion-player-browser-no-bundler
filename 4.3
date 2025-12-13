@@ -1,0 +1,11 @@
+const titleSpring = spring({
+  fps,
+  frame,
+  config: {
+    damping: 200,
+    mass: 1.2,
+    stiffness: 120,
+  },
+});
+const titleY = interpolate(titleSpring, [0, 1], [-80, 0]);
+

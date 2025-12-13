@@ -1,1 +1,1 @@
-{"content":"inputProps={{\n  title: \"My Custom Title\",\n  subtitle: \"My descriptive subtitle\",\n}}\n\n"}
+{"content":"inputProps={{\n  title: \"Your New Title\",\n  subtitle: \"A more specific description\",\n}}\n\n<Player\n  component={MyComposition}\n  durationInFrames={360}   // change this for shorter/longer videos\n  fps={30}                 // change for smoother/faster or slower playback\n  compositionWidth={540}   // change width (e.g. 1920)\n  compositionHeight={960}  // change height (e.g. 1080)\n  ...\n/>\n\n"}

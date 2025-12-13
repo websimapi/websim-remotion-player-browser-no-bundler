@@ -1,0 +1,7 @@
+const pulse = spring({
+  fps,
+  frame: frame % (fps * 2),
+  config: { damping: 15, stiffness: 80, mass: 0.5 },
+});
+const pulseScale = interpolate(pulse, [0, 1], [0.8, 1.2]);
+

@@ -1,13 +1,30 @@
-<<<<<<< SEARCH
-# Remotion Player – Browser (No Bundler) Setup
+__DELETE_ME__
 
-This project runs a Remotion video **directly in the browser** using native ES modules and an **import map**—no bundler or build tooling is required.
+# Remotion Video – Full Browser Setup & Render Logic (Copy‑Paste Ready)
 
-You can copy each of the sections below as‑is into your own files:
+This project shows how to run a **Remotion video directly in the browser** using:
+
+- Native ES modules
+- An **import map** (no bundler / no Node.js required)
+- The `@websim/remotion/player` wrapper around `@remotion/player`
+
+Below is everything you need:
+
+- The exact **file contents** (`index.html`, `main.jsx`, `composition.jsx`)
+- A detailed breakdown of the **render logic** (springs, interpolation, layout, props)
+- Notes on **customizing** titles, subtitles, and animation
+
+You can copy each section into your own project as‑is.
 
 ---
 
-## 1. `index.html`
+## 1. `index.html` – Browser Entry + Import Map
+
+This file:
+
+- Sets up a full‑screen `<div id="app">` where React will mount.
+- Defines an **import map** telling the browser where to load React, Remotion, and related libraries from CDNs.
+- Loads `main.jsx` as a native ES module.
 
 ```html
 <!doctype html>
@@ -58,6 +75,4 @@ You can copy each of the sections below as‑is into your own files:
     <script type="module" src="./main.jsx"></script>
   </body>
 </html>
-
-
 
