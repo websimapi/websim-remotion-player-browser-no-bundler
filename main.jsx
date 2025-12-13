@@ -26,7 +26,10 @@ createRoot(document.getElementById("app")).render(
           loop: true,
           controls: true,
           autoplay: true,
-          inputProps: { title: "Remotion in the Browser", subtitle: "No bundler required" },
+          inputProps: {
+            title: "Remotion in the Browser",
+            subtitle: "No bundler required"
+          },
           style: {
             maxWidth: "100%",
             maxHeight: "100%",

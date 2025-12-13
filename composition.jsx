@@ -7,7 +7,12 @@ import {
   useCurrentFrame,
   useVideoConfig
 } from "remotion";
-const CenteredText = ({ children, size = 60, weight = 700, color = "#fff" }) => /* @__PURE__ */ jsxDEV(
+const CenteredText = ({
+  children,
+  size = 60,
+  weight = 700,
+  color = "#fff"
+}) => /* @__PURE__ */ jsxDEV(
   "div",
   {
     style: {
@@ -24,7 +29,7 @@ const CenteredText = ({ children, size = 60, weight = 700, color = "#fff" }) => 
   false,
   {
     fileName: "<stdin>",
-    lineNumber: 12,
+    lineNumber: 17,
     columnNumber: 3
   }
 );
@@ -90,7 +95,7 @@ const MyComposition = ({ title, subtitle }) => {
           false,
           {
             fileName: "<stdin>",
-            lineNumber: 80,
+            lineNumber: 86,
             columnNumber: 7
           }
         ),
@@ -105,7 +110,7 @@ const MyComposition = ({ title, subtitle }) => {
             children: [
               /* @__PURE__ */ jsxDEV(CenteredText, { size: 54, children: title }, void 0, false, {
                 fileName: "<stdin>",
-                lineNumber: 102,
+                lineNumber: 108,
                 columnNumber: 9
               }),
               /* @__PURE__ */ jsxDEV(
@@ -134,7 +139,7 @@ const MyComposition = ({ title, subtitle }) => {
                     false,
                     {
                       fileName: "<stdin>",
-                      lineNumber: 114,
+                      lineNumber: 120,
                       columnNumber: 11
                     }
                   )
@@ -143,7 +148,7 @@ const MyComposition = ({ title, subtitle }) => {
                 false,
                 {
                   fileName: "<stdin>",
-                  lineNumber: 105,
+                  lineNumber: 111,
                   columnNumber: 9
                 }
               ),
@@ -156,7 +161,7 @@ const MyComposition = ({ title, subtitle }) => {
                   },
                   children: /* @__PURE__ */ jsxDEV(CenteredText, { size: 32, weight: 400, color: "#ddd", children: subtitle }, void 0, false, {
                     fileName: "<stdin>",
-                    lineNumber: 133,
+                    lineNumber: 139,
                     columnNumber: 11
                   })
                 },
@@ -164,7 +169,7 @@ const MyComposition = ({ title, subtitle }) => {
                 false,
                 {
                   fileName: "<stdin>",
-                  lineNumber: 127,
+                  lineNumber: 133,
                   columnNumber: 9
                 }
               )
@@ -174,7 +179,7 @@ const MyComposition = ({ title, subtitle }) => {
           true,
           {
             fileName: "<stdin>",
-            lineNumber: 95,
+            lineNumber: 101,
             columnNumber: 7
           }
         ),
@@ -203,7 +208,7 @@ const MyComposition = ({ title, subtitle }) => {
           true,
           {
             fileName: "<stdin>",
-            lineNumber: 140,
+            lineNumber: 146,
             columnNumber: 7
           }
         )
@@ -213,7 +218,7 @@ const MyComposition = ({ title, subtitle }) => {
     true,
     {
       fileName: "<stdin>",
-      lineNumber: 67,
+      lineNumber: 73,
       columnNumber: 5
     }
   );
